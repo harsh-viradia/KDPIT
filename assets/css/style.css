@@ -1,13 +1,3 @@
--/**
-* Template Name: BizPage - v4.0.1
-* Template URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   background: #fff;
   color: #666666;
@@ -885,7 +875,6 @@ section {
   transition: 3s;
 }
 /* Testimonials
-
 */
 
 #core {
@@ -1168,7 +1157,7 @@ section {
 /* Faculty*/
 
 #faculty {
-  background: url("../img/intro-carousel/4.jpg") center top no-repeat fixed;
+  background: url("../img/carrer.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 0 0;
   position: relative;
@@ -1183,7 +1172,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.88);
+  background: rgba(63 53 53 / 88%);
   z-index: 9;
 }
 
@@ -1636,77 +1625,113 @@ section {
 
 /* Team Section
 --------------------------------*/
-#team {
+our-team {
   background: #fff;
   padding: 60px 0;
 }
 
-#team .member {
+.our-team {
+  padding: 30px 0 40px;
+  margin-bottom: 30px;
+  background-color: #000;
   text-align: center;
-  background: #000;
+  overflow: hidden;
   position: relative;
 }
 
-#team .member .member-info {
-  opacity: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.our-team .picture {
+  display: inline-block;
+  height: 130px;
+  width: 130px;
+  margin-bottom: 50px;
+  z-index: 1;
+  position: relative;
+}
+
+.our-team .picture::before {
+  content: "";
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  background-color: #18d26e;
   position: absolute;
-  bottom: 0;
+  bottom: 135%;
+  right: 0;
+  left: 0;
+  opacity: 0.9;
+  transform: scale(3);
+  transition: all 0.3s linear 0s;
+}
+
+.our-team:hover .picture::before {
+  height: 100%;
+}
+
+.our-team .picture::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #18d26e;
+  position: absolute;
   top: 0;
   left: 0;
-  right: 0;
-  transition: 0.2s;
+  z-index: -1;
 }
 
-#team .member .member-info-content {
-  margin-top: -50px;
-  transition: margin 0.2s;
+.our-team .picture img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all 0.9s ease 0s;
 }
 
-#team .member:hover .member-info {
-  background: rgba(0, 0, 0, 0.7);
-  opacity: 1;
-  transition: 0.4s;
+.our-team:hover .picture img {
+  box-shadow: 0 0 0 14px #000;
+  transform: scale(0.7);
 }
 
-#team .member:hover .member-info-content {
-  margin-top: 0;
-  transition: margin 0.4s;
-}
-
-#team .member h4 {
-  font-weight: 700;
-  margin-bottom: 2px;
-  font-size: 18px;
-  color: #fff;
-}
-
-#team .member span {
-  font-style: italic;
+.our-team .title {
   display: block;
-  font-size: 13px;
+  font-size: 15px;
   color: #fff;
+  text-transform: capitalize;
 }
 
-#team .member .social {
-  margin-top: 15px;
+.our-team .social {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #18d26e;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  transition: all 0.5s ease 0s;
 }
 
-#team .member .social a {
-  transition: none;
-  color: #fff;
+.our-team:hover .social {
+  bottom: 0;
 }
 
-#team .member .social a:hover {
+.our-team .social li {
+  display: inline-block;
+}
+
+.our-team .social li a {
+  display: block;
+  padding: 10px;
+  font-size: 17px;
+  color: black;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+.our-team .social li a:hover {
   color: #18d26e;
+  background-color: #000;
 }
 
-#team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
-}
 
 /* Contact Section
 --------------------------------*/
@@ -2039,5 +2064,3 @@ section {
   min-width: 100%;
   min-height: 100%;
 }
-
-
