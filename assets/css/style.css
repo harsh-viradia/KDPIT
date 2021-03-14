@@ -1626,12 +1626,13 @@ section {
 /* Team Section
 --------------------------------*/
 our-team {
+    font-size: 30px;
   background: #fff;
   padding: 60px 0;
 }
 
 .our-team {
-  padding: 30px 0 40px;
+  padding: 30px 0 20px;
   margin-bottom: 30px;
   background-color: #000;
   text-align: center;
