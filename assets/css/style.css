@@ -1168,7 +1168,7 @@ section {
 /* END */
 
 #test {
-  background: url("../img/facts-bg1.jpg") center top no-repeat fixed;
+  background: url("../img/1.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 0 0;
   position: relative;
@@ -1181,7 +1181,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.88);
+  background: rgb(63 53 53 / 88%);
   z-index: 9;
 }
 
@@ -1623,7 +1623,7 @@ section {
 }
 
 #clients .owl-dot.active {
-  background-color: #0c2e8a;
+  background-color: #18d26e;
 }
 
 
