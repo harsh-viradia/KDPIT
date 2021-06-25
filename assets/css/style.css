@@ -399,11 +399,13 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width: 1550px;
+  height: 100%;
+
 }
 
 #intro .carousel-item::before {
   content: '';
-  background-color: rgba(0, 0, 0, 0.7);
 }
 
 #intro .carousel-container {
