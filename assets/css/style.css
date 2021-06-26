@@ -981,55 +981,7 @@ section {
   text-align: left;
   transition: 3s;
 }
-/* Testimonials
-*/
 
-#core {
-  background: url("../img/gate.webp") center top no-repeat fixed;
-  background-size: cover;
-  padding: 60px 0 0 0;
-  position: relative;
-}
-
-#core::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(255, 255, 255, 0.88);
-  z-index: 9;
-}
-
-#core .container {
-  position: relative;
-  z-index: 10;
-}
-
-#core .counters span {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: 48px;
-  display: inline-block;
-  color: #18d26e;
-}
-
-#core .counters p {
-  padding: 0;
-  margin: 0 0 20px 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  color: #111;
-}
-
-#core .test-img {
-  text-align: center;
-  padding-top: 30px;
-}
-
-
-/* END */
 
 #best {
   background: url("../img/39_academic.webp") center top no-repeat fixed;
@@ -1170,7 +1122,7 @@ section {
 /* END */
 
 #test {
-  background: url("../img/1.webp") center top no-repeat fixed;
+  background: url("../img/carrer.webp") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 0 0;
   position: relative;
