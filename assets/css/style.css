@@ -507,7 +507,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 8px 32px;
   border-radius: 50px;
   transition: 0.3s;
-  margin: 10px;
+  margin-top: 450px;
+  margin-right: 950px;
   color: #fff;
   background: #18d26e;
 }
@@ -567,7 +568,7 @@ section {
 /* Section with background
 --------------------------------*/
 .section-bg {
-  background: #f7f7f7;
+  background: #ffffff;
 }
 
 /*--------------------------------------------------------------
@@ -1044,7 +1045,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.88);
+  background: rgba(63, 61, 61, 0.863);
   z-index: 9;
 }
 
@@ -1213,6 +1214,55 @@ section {
 }
 
 /* END */
+
+/* Main gallery*/
+
+#mgallery {
+  background: url("../img/1.webp") center top no-repeat fixed;
+  background-size: cover;
+  padding: 80px 0 0 0;
+  position: relative;
+}
+
+#mgallery::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(63 53 53 / 88%);
+  z-index: 9;
+}
+
+#mgallery .container {
+  position: relative;
+  z-index: 10;
+}
+
+#mgallery .counters span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  display: inline-block;
+  color: #18d26e;
+}
+
+#mgallery .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #111;
+}
+
+#mgallery .faculty-img {
+  text-align: center;
+  padding-top: 30px;
+}
+
+/* EOD */
+
 
 /* Gallery */
 
@@ -1405,7 +1455,7 @@ section {
 
 #portfolio .portfolio-item {
   position: relative;
-  height: 360px;
+  height: 380px;
   overflow: hidden;
 }
 
@@ -1593,6 +1643,8 @@ section {
 --------------------------------*/
 #clients {
   padding: 30px 0;
+  color: #fff;
+  background-color: #fff;
 }
 
 #clients img {
