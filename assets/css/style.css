@@ -1170,7 +1170,7 @@ section {
 /* Main gallery*/
 
 #mgallery {
-  background: url("../img/1.webp") center top no-repeat fixed;
+  background: url("../img/charusatimg.webp") center top no-repeat fixed;
   background-size: cover;
   padding: 80px 0 0 0;
   position: relative;
@@ -1219,7 +1219,7 @@ section {
 /* Gallery */
 
 #gallery {
-  background: url("../img/1.webp") center top no-repeat fixed;
+  background: url("../img/carrer.webp") center top no-repeat fixed;
   background-size: cover;
   padding: 80px 0 0 0;
   position: relative;
