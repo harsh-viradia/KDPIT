@@ -1423,7 +1423,7 @@ section {
 
 #portfolio .portfolio-item {
   position: relative;
-  height: 380px;
+  margin-bottom: 14px;
   overflow: hidden;
 }
 
