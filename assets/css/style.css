@@ -114,8 +114,8 @@
   }
   
   /*--------------------------------------------------------------
-  # Header
-  --------------------------------------------------------------*/
+    # Header
+    --------------------------------------------------------------*/
   #header {
     transition: all 0.5s;
     z-index: 997;
@@ -159,8 +159,8 @@
   }
   
   /*--------------------------------------------------------------
-  # Navigation Menu
-  --------------------------------------------------------------*/
+    # Navigation Menu
+    --------------------------------------------------------------*/
   /* Desktop Navigation */
   .nav-menu ul {
     margin: 0;
@@ -383,8 +383,8 @@
   }
   
   /*--------------------------------------------------------------
-  # Intro Section
-  --------------------------------------------------------------*/
+    # Intro Section
+    --------------------------------------------------------------*/
   #intro {
     width: 100%;
     height: 100vh;
@@ -536,14 +536,14 @@
   }
   
   /*--------------------------------------------------------------
-  # Sections
-  --------------------------------------------------------------*/
+    # Sections
+    --------------------------------------------------------------*/
   section {
     overflow: hidden;
   }
   
   /* Sections Header
-  --------------------------------*/
+    --------------------------------*/
   .section-header h3 {
     font-size: 32px;
     color: #111;
@@ -583,14 +583,14 @@
   }
   
   /* Section with background
-  --------------------------------*/
+    --------------------------------*/
   .section-bg {
     background: #ffffff;
   }
   
   /*--------------------------------------------------------------
-  # Breadcrumbs
-  --------------------------------------------------------------*/
+    # Breadcrumbs
+    --------------------------------------------------------------*/
   .breadcrumbs {
     padding: 20px 0;
     background-color: #f7f7f7;
@@ -643,7 +643,7 @@
   }
   
   /* Featured Services Section
-  --------------------------------*/
+    --------------------------------*/
   #featured-services {
     background: #000;
   }
@@ -793,7 +793,7 @@
   /* End Of Section */
   
   /* About Us Section
-  --------------------------------*/
+    --------------------------------*/
   #about {
     background: url(../img/carrer.webp) center top no-repeat fixed;
     background-size: cover;
@@ -889,120 +889,7 @@
   /* End Of Section */
   
   /* Services Section
-  --------------------------------*/
-  #services {
-    background: #fff;
-    background-size: cover;
-    padding: 0 0 40px 0;
-  }
-  
-  #services .box {
-    margin-bottom: 30px;
-  }
-  
-  #services .icon {
-    float: left;
-  }
-  
-  #services .icon i {
-    color: #18d26e;
-    font-size: 36px;
-    line-height: 1;
-    transition: 0.5s;
-  }
-  
-  #services .title {
-    margin-left: 60px;
-    font-weight: 700;
-    margin-bottom: 15px;
-    font-size: 18px;
-  }
-  
-  #services .title a {
-    color: #111;
-  }
-  
-  #services .box:hover .title a {
-    color: #18d26e;
-  }
-  
-  #services .description {
-    font-size: 14px;
-    margin-left: 60px;
-    line-height: 24px;
-    margin-bottom: 0;
-  }
-  
-  /* Call To Action Section
-  --------------------------------*/
-  #call-to-action {
-    background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
-      url(../img/call-to-action-bg.webp) fixed center center;
-    background-size: cover;
-    padding: 60px 0;
-  }
-  
-  #call-to-action h3 {
-    color: #fff;
-    font-size: 28px;
-    font-weight: 700;
-  }
-  
-  #call-to-action p {
-    color: #fff;
-  }
-  
-  #call-to-action .cta-btn {
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 8px 28px;
-    border-radius: 25px;
-    transition: 0.5s;
-    margin-top: 10px;
-    border: 2px solid #fff;
-    color: #fff;
-  }
-  
-  #call-to-action .cta-btn:hover {
-    background: #18d26e;
-    border: 2px solid #18d26e;
-  }
-  
-  /* Call To Action Section
-  --------------------------------*/
-  #skills {
-    padding: 60px 0;
-  }
-  
-  #skills .progress {
-    height: 35px;
-    margin-bottom: 10px;
-  }
-  
-  #skills .progress .skill {
-    font-family: "Open Sans", sans-serif;
-    line-height: 40%;
-    padding: 0;
-    margin: 0 0 0 20px;
-    text-transform: uppercase;
-  }
-  
-  #skills .progress .skill .val {
-    float: right;
-    font-style: normal;
-    margin: 0 20px 0 0;
-  }
-  
-  #skills .progress-bar {
-    width: 1px;
-    text-align: left;
-    transition: 3s;
-  }
-  
+    --------------------------------*/
   #best {
     background: url("../img/39_academic.webp") center top no-repeat fixed;
     background-size: cover;
@@ -1047,6 +934,85 @@
     padding-top: 30px;
   }
   
+  #best .box {
+    margin-bottom: 30px;
+  }
+  
+  #best .icon {
+    float: left;
+  }
+  
+  #best .icon i {
+    color: #18d26e;
+    font-size: 36px;
+    line-height: 1;
+    transition: 0.5s;
+  }
+  
+  #best .title {
+    margin-left: 60px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  #best .title a {
+    color: #111;
+  }
+  
+  #best .box:hover .title a {
+    color: #18d26e;
+  }
+  
+  #best .description {
+    font-size: 14px;
+    margin-left: 60px;
+    line-height: 24px;
+    margin-bottom: 0;
+  }
+  
+  /* Call To Action Section
+    --------------------------------*/
+  #call-to-action {
+    background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
+      url(../img/call-to-action-bg.webp) fixed center center;
+    background-size: cover;
+    padding: 60px 0;
+  }
+  
+  #call-to-action h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  #call-to-action p {
+    color: #fff;
+  }
+  
+  #call-to-action .cta-btn {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  
+  #call-to-action .cta-btn:hover {
+    background: #18d26e;
+    border: 2px solid #18d26e;
+  }
+  
+  /* Call To Action Section
+    --------------------------------*/
+  
   /* END */
   #career {
     background: url("../img/carrer.webp") center top no-repeat fixed;
@@ -1064,6 +1030,31 @@
     bottom: 0;
     background: rgba(63 53 53 / 88%);
     z-index: 9;
+  }
+  
+  #career .progress {
+    height: 35px;
+    margin-bottom: 10px;
+  }
+  
+  #career .progress .skill {
+    font-family: "Open Sans", sans-serif;
+    line-height: 40%;
+    padding: 0;
+    margin: 0 0 0 20px;
+    text-transform: uppercase;
+  }
+  
+  #career .progress .skill .val {
+    float: right;
+    font-style: normal;
+    margin: 0 20px 0 0;
+  }
+  
+  #career .progress-bar {
+    width: 1px;
+    text-align: left;
+    transition: 3s;
   }
   
   #career .container {
@@ -1140,144 +1131,110 @@
   
   /* END */
   
-  #test {
-    background: url("../img/carrer.webp") center top no-repeat fixed;
-    background-size: cover;
-    padding: 60px 0 0 0;
-    position: relative;
+  our-team {
+    padding: 60px 0;
   }
   
-  #test::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: rgb(63 53 53 / 88%);
-    z-index: 9;
-  }
-  
-  #test .container {
-    position: relative;
-    z-index: 10;
-  }
-  
-  #test .counters span {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-size: 48px;
-    display: inline-block;
-    color: #18d26e;
-  }
-  
-  #test .counters p {
-    padding: 0;
-    margin: 0 0 20px 0;
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    color: #111;
-  }
-  
-  #test .test-img {
+  .our-team {
+    padding: 30px 0 40px;
+    margin-bottom: 30px;
+    background-color: #000;
     text-align: center;
-    padding-top: 30px;
-  }
-  
-  /* END */
-  
-  /* Main gallery*/
-  
-  #mgallery {
-    background: url("../img/charusatimg.webp") center top no-repeat fixed;
-    background-size: cover;
-    padding: 80px 0 0 0;
+    overflow: hidden;
     position: relative;
   }
   
-  #mgallery::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: rgba(63 53 53 / 88%);
-    z-index: 9;
-  }
-  
-  #mgallery .container {
-    position: relative;
-    z-index: 10;
-  }
-  
-  #mgallery .counters span {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-size: 48px;
+  .our-team .picture {
     display: inline-block;
-    color: #18d26e;
-  }
-  
-  #mgallery .counters p {
-    padding: 0;
-    margin: 0 0 20px 0;
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    color: #111;
-  }
-  
-  #mgallery .faculty-img {
-    text-align: center;
-    padding-top: 30px;
-  }
-  
-  /* EOD */
-  
-  /* Gallery */
-  
-  #gallery {
-    background: url("../img/carrer.webp") center top no-repeat fixed;
-    background-size: cover;
-    padding: 80px 0 30px 0;
+    height: 130px;
+    width: 130px;
+    margin-bottom: 50px;
+    z-index: 1;
     position: relative;
   }
   
-  #gallery::before {
+  .our-team .picture::before {
     content: "";
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background-color: #18d26e;
     position: absolute;
-    left: 0;
+    bottom: 135%;
     right: 0;
+    left: 0;
+    opacity: 0.9;
+    transform: scale(3);
+    transition: all 0.3s linear 0s;
+  }
+  
+  .our-team:hover .picture::before {
+    height: 100%;
+  }
+  
+  .our-team .picture::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #18d26e;
+    position: absolute;
     top: 0;
-    bottom: 0;
-    background: rgba(63 53 53 / 88%);
-    z-index: 9;
+    left: 0;
+    z-index: -1;
   }
   
-  #gallery .container {
-    position: relative;
-    z-index: 10;
+  .our-team .picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.9s ease 0s;
   }
   
-  #gallery .counters span {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-size: 48px;
-    display: inline-block;
-    color: #18d26e;
+  .our-team:hover .picture img {
+    box-shadow: 0 0 0 14px #000;
+    transform: scale(0.7);
   }
   
-  #gallery .counters p {
+  .our-team .title {
+    display: block;
+    font-size: 15px;
+    color: #fff;
+    text-transform: capitalize;
+  }
+  
+  .our-team .social {
+    width: 100%;
     padding: 0;
-    margin: 0 0 20px 0;
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    color: #111;
+    margin: 0;
+    background-color: #18d26e;
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    transition: all 0.5s ease 0s;
   }
   
-  #gallery .faculty-img {
-    text-align: center;
-    padding-top: 30px;
+  .our-team:hover .social {
+    bottom: 0;
+  }
+  
+  .our-team .social li {
+    display: inline-block;
+  }
+  
+  .our-team .social li a {
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+    color: black;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+  }
+  
+  .our-team .social li a:hover {
+    color: #18d26e;
+    background-color: #000;
   }
   
   /* Faculty*/
@@ -1288,8 +1245,6 @@
     padding: 60px 0 0 0;
     position: relative;
   }
-  
-  /* END*/
   
   #faculty::before {
     content: "";
@@ -1329,7 +1284,7 @@
   }
   
   /* Facts Section
-  --------------------------------*/
+    --------------------------------*/
   #facts {
     background: #fff;
     background-size: cover;
@@ -1375,10 +1330,50 @@
   }
   
   /* Portfolio Section
-  --------------------------------*/
-  /* #portfolio {
-    padding: 60px 0;
-  } */
+    --------------------------------*/
+  #portfolio {
+    background: url("../img/carrer.webp") center top no-repeat fixed;
+    background-size: cover;
+    padding: 80px 0 30px 0;
+    position: relative;
+  }
+  
+  #portfolio::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(63 53 53 / 88%);
+    z-index: 9;
+  }
+  
+  #portfolio .container {
+    position: relative;
+    z-index: 10;
+  }
+  
+  #portfolio .counters span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    display: inline-block;
+    color: #18d26e;
+  }
+  
+  #portfolio .counters p {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #111;
+  }
+  
+  #portfolio .faculty-img {
+    text-align: center;
+    padding-top: 30px;
+  }
   
   #portfolio #portfolio-flters {
     padding: 0;
@@ -1526,7 +1521,7 @@
   }
   
   /* Portfolio Details
-  --------------------------------*/
+    --------------------------------*/
   .portfolio-details {
     padding-top: 30px;
   }
@@ -1613,7 +1608,7 @@
   }
   
   /* Clients Section
-  --------------------------------*/
+    --------------------------------*/
   #clients {
     padding: 30px 0;
     color: #fff;
@@ -1678,10 +1673,51 @@
     background-color: #18d26e;
   }
   /* Testimonials Section
-  --------------------------------*/
-  /* #testimonials {
-    padding: 60px 0;
-  } */
+    --------------------------------*/
+  
+  #testimonials {
+    background: url("../img/carrer.webp") center top no-repeat fixed;
+    background-size: cover;
+    padding: 60px 0 0 0;
+    position: relative;
+  }
+  
+  #testimonials::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgb(63 53 53 / 88%);
+    z-index: 9;
+  }
+  
+  #testimonials .container {
+    position: relative;
+    z-index: 10;
+  }
+  
+  #testimonials .counters span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    display: inline-block;
+    color: #18d26e;
+  }
+  
+  #testimonials .counters p {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #111;
+  }
+  
+  #testimonials .testimonials-img {
+    text-align: center;
+    padding-top: 30px;
+  }
   
   #testimonials .section-header {
     margin-bottom: 40px;
@@ -1757,116 +1793,10 @@
   }
   
   /* Team Section
-  --------------------------------*/
-  our-team {
-    background: #fff;
-    padding: 60px 0;
-  }
-  
-  .our-team {
-    padding: 30px 0 40px;
-    margin-bottom: 30px;
-    background-color: #000;
-    text-align: center;
-    overflow: hidden;
-    position: relative;
-  }
-  
-  .our-team .picture {
-    display: inline-block;
-    height: 130px;
-    width: 130px;
-    margin-bottom: 50px;
-    z-index: 1;
-    position: relative;
-  }
-  
-  .our-team .picture::before {
-    content: "";
-    width: 100%;
-    height: 0;
-    border-radius: 50%;
-    background-color: #18d26e;
-    position: absolute;
-    bottom: 135%;
-    right: 0;
-    left: 0;
-    opacity: 0.9;
-    transform: scale(3);
-    transition: all 0.3s linear 0s;
-  }
-  
-  .our-team:hover .picture::before {
-    height: 100%;
-  }
-  
-  .our-team .picture::after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background-color: #18d26e;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-  }
-  
-  .our-team .picture img {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-    transform: scale(1);
-    transition: all 0.9s ease 0s;
-  }
-  
-  .our-team:hover .picture img {
-    box-shadow: 0 0 0 14px #000;
-    transform: scale(0.7);
-  }
-  
-  .our-team .title {
-    display: block;
-    font-size: 15px;
-    color: #fff;
-    text-transform: capitalize;
-  }
-  
-  .our-team .social {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    background-color: #18d26e;
-    position: absolute;
-    bottom: -100px;
-    left: 0;
-    transition: all 0.5s ease 0s;
-  }
-  
-  .our-team:hover .social {
-    bottom: 0;
-  }
-  
-  .our-team .social li {
-    display: inline-block;
-  }
-  
-  .our-team .social li a {
-    display: block;
-    padding: 10px;
-    font-size: 17px;
-    color: black;
-    transition: all 0.3s ease 0s;
-    text-decoration: none;
-  }
-  
-  .our-team .social li a:hover {
-    color: #18d26e;
-    background-color: #000;
-  }
+    --------------------------------*/
   
   /* Contact Section
-  --------------------------------*/
+    --------------------------------*/
   #contact {
     padding: 60px 0;
   }
@@ -2030,8 +1960,8 @@
   }
   
   /*--------------------------------------------------------------
-  # Footer
-  --------------------------------------------------------------*/
+    # Footer
+    --------------------------------------------------------------*/
   #footer {
     background: #000;
     padding: 0 0 30px 0;
