@@ -712,7 +712,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    background: rgb(63 53 53 / 88%);
+    background: rgba(66, 63, 63, 0.85);
     z-index: 9;
   }
   
@@ -808,7 +808,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    background: rgb(63 53 53 / 88%);
+    background: rgb(66, 63, 63, 0.85);
     z-index: 9;
   }
   
@@ -904,7 +904,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    background: rgba(63, 61, 61, 0.863);
+    background: rgba(63, 61, 61, 0.70);
     z-index: 9;
   }
   
@@ -975,48 +975,7 @@
     margin-bottom: 0;
   }
   
-  /* Call To Action Section
-    --------------------------------*/
-  #call-to-action {
-    background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
-      url(../img/call-to-action-bg.webp) fixed center center;
-    background-size: cover;
-    padding: 60px 0;
-  }
-  
-  #call-to-action h3 {
-    color: #fff;
-    font-size: 28px;
-    font-weight: 700;
-  }
-  
-  #call-to-action p {
-    color: #fff;
-  }
-  
-  #call-to-action .cta-btn {
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 8px 28px;
-    border-radius: 25px;
-    transition: 0.5s;
-    margin-top: 10px;
-    border: 2px solid #fff;
-    color: #fff;
-  }
-  
-  #call-to-action .cta-btn:hover {
-    background: #18d26e;
-    border: 2px solid #18d26e;
-  }
-  
-  /* Call To Action Section
-    --------------------------------*/
-  
+
   /* END */
   #career {
     background: url("../img/carrer.webp") center top no-repeat fixed;
@@ -1032,7 +991,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    background: rgba(63 53 53 / 88%);
+    background: rgba(66, 63, 63, 0.85);
     z-index: 9;
   }
   
@@ -1088,52 +1047,7 @@
   }
   
   /* END */
-  
-  #ind {
-    background: url("../img/charusatimg.webp") center top no-repeat fixed;
-    background-size: cover;
-    padding: 60px 0 0 0;
-    position: relative;
-  }
-  
-  #ind::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: rgb(63 53 53 / 88%);
-    z-index: 9;
-  }
-  
-  #ind .container {
-    position: relative;
-    z-index: 10;
-  }
-  
-  #ind .counters span {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-size: 48px;
-    display: inline-block;
-    color: #18d26e;
-  }
-  
-  #ind .counters p {
-    padding: 0;
-    margin: 0 0 20px 0;
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    color: #111;
-  }
-  
-  #ind .test-img {
-    text-align: center;
-    padding-top: 30px;
-  }
-  
-  /* END */
+
   
   our-team {
     padding: 60px 0;
@@ -1349,7 +1263,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    background: rgba(63 53 53 / 88%);
+    background: rgba(66, 63, 63, 0.85);
     z-index: 9;
   }
   
@@ -1693,7 +1607,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    background: rgb(63 53 53 / 88%);
+    background: rgb(66, 63, 63, 0.85);
     z-index: 9;
   }
   
